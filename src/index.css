@@ -10,5 +10,13 @@ body {
 
 .container {
   display: grid;
-  padding: 15%;
+  padding: 10%;
+}
+
+.navBarWrapper {
+  display: grid;
+  padding: 5%;
+  grid-auto-flow: column;
+  justify-content: end;
+  column-gap: 1em;
 }
