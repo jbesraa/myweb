@@ -82,7 +82,7 @@ const Experience = () => {
 	return (
 		<>	
 			<Link to="/" className="link hover-orange black-70 center">
-				{"> cd /"}
+				{"$ cd /"}
 			</Link>		
 			<dl className="lh-title pa4 mt0 center">
 				<CVTitle text="2018 - August 2020 GetJelly"/>
@@ -121,7 +121,7 @@ const Intro = () => {
 			</div>
 			<Link to="/resume" className="link ">
 				<h2 className="f6 hover-orange f4-m f4-l fw2 black-70 mt0 lh-copy">
-  		{"> CAT RESUME"}
+  		{"$ CAT RESUME"}
 				</h2>
 			</Link>
 		</header>
