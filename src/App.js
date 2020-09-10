@@ -9,16 +9,14 @@ const notify = () => toast.success("COPIED TO CLIPBOARD!", {
 	position: "top-center",
 });
 
-
 const NavBar = () => {
 	return (
-		<div className="navBarWrapper">
-			<div className="center pointer">
+		<div className="gridView cg1 gafc pa4">
+			<div className="center pointer hover-green">
 				 <CopyToClipboard text="jbesraa@gmail.com"
 					onCopy={notify}>
 					<span>jbesraa@gmail.com</span>
 				</CopyToClipboard>
-				
 			</div>
 			<div className="center">
 				<a target="_blank" href="https://github.com/jbesraa" rel="noopener noreferrer">
@@ -119,7 +117,7 @@ const Intro = () => {
         alot of DevOps-y stuff.
 				</h2>
 			</div>
-			<Link to="/resume" className="link ">
+			<Link to="/resume" className="link">
 				<h2 className="f6 hover-orange f4-m f4-l fw2 black-70 mt0 lh-copy">
   		{"$ CAT RESUME"}
 				</h2>
@@ -135,7 +133,7 @@ const App = () => {
 	return (
 		<Router>
 			<NavBar  />
-			<div className="container">
+			<div className="gridView">
 				<Switch>
 					<Route exact path="/">
 						<Intro/>

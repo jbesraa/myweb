@@ -7,7 +7,7 @@ body {
   height: 100%;
 }
 
-.container {
+.gridView {
   display: grid;
 }
 
@@ -18,16 +18,11 @@ body {
 .center {
   justify-self: center;
 }
-.navBarWrapper {
-  display: grid;
-  padding: 2%;
+
+.gafc {
   grid-auto-flow: column;
-  column-gap: 1em;
 }
 
- .navBarWrapper div:hover {
-    color: green;
-  }
-.pointer {
-  cursor: pointer;
+.cg1 {
+  column-gap: 1em;
 }
