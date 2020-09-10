@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #92aa83;
+  color: white;
+  font-size: 20px;
+  background-color:  	#272727;
 }
 
 .container {
@@ -13,10 +15,20 @@ body {
   padding: 10%;
 }
 
+.end {
+  justify-self: end;
+}
+
+.center {
+  justify-self: center;
+}
 .navBarWrapper {
   display: grid;
   padding: 5%;
   grid-auto-flow: column;
-  justify-content: end;
   column-gap: 1em;
 }
+
+ .navBarWrapper div:hover {
+    color: green;
+  }
