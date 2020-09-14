@@ -1,1 +1,1 @@
-This project was bootstrapped with CRA.
+bootstraped with CRA & Deployed with netlify.
