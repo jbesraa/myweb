@@ -13,7 +13,7 @@ const NavBar = () => {
 	return (
 		<div className="gridView cg1 gafc pa4">
 			<div className="center pointer hover-green">
-				 <CopyToClipboard text="jbesraa@gmail.com"
+				<CopyToClipboard text="jbesraa@gmail.com"
 					onCopy={notify}>
 					<span>jbesraa@gmail.com</span>
 				</CopyToClipboard>
@@ -44,7 +44,7 @@ CVLine.propTypes = {
 };
 const Jelly = [
 	"Migrated C# server to Node.js + Graphql(MongoDB).", "Migrated Frontend HTTP infrastructure from Redux-Saga to Graphql(Apollo)",
-	"Started End to End testing project for the company`s main web platform(click here for code)" ,
+	"Started End to End testing project for the company`s main web platform" ,
 	"Started Backoffice project for buisness developmenet team.",
 	"Coded new authentication system for users and employees." ,
 	"Encouraged the team to follow data-driven decisions by analaysing and presenting data about users behaviour." ,
@@ -119,7 +119,7 @@ const Intro = () => {
 			</div>
 			<Link to="/resume" className="link">
 				<h2 className="f6 hover-orange f4-m f4-l fw2 black-70 mt0 lh-copy">
-  		{"$ CAT RESUME"}
+		{"$ CAT RESUME"}
 				</h2>
 			</Link>
 		</header>
