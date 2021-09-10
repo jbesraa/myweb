@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import React from "react";
+import { CopyToClipboard } from "react-copy-to-clipboard";
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify";
 import { ReactComponent as GithubLogo } from "./github-logo.svg";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { ToastContainer, toast } from "react-toastify";
-import {CopyToClipboard} from "react-copy-to-clipboard";
 
 const notify = () => toast.success("COPIED TO CLIPBOARD!", {
 	position: "top-center",
@@ -136,11 +136,14 @@ const App = () => {
 			<div className="gridView">
 				<Switch>
 					<Route exact path="/">
+						<div></div>
+					</Route>
+					{/* <Route exact path="/">
 						<Intro/>
 					</Route>
 					<Route exact path="/resume">
 						<Experience/>
-					</Route>
+					</Route> */}
 				</Switch>
 				<ToastContainer/>
 			</div>
